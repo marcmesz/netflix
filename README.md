@@ -5,7 +5,7 @@
 
 This React project was created during me studying at Scrimba.
 
-Register or feel free to login with the provided demo account:
+Register or feel free to sign in with the provided demo account:
 
 Email: netflix@clone.com
 Password: N3tflixCl0ne123
