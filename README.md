@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/23243479/143055995-1a7546ec-2b58-4ce4-847c-ed4293cb492e.png)
+
 # Netflix
  Netflix Clone
  
