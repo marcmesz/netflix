@@ -39389,7 +39389,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPOR
   value: {
     firebase: window.firebase
   }
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_global_styles__WEBPACK_IMPORTED_MODULE_2__.GlobalStyles, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_3__.App, null)), document.getElementById('root'));
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Hello"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_global_styles__WEBPACK_IMPORTED_MODULE_2__.GlobalStyles, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_3__.App, null)), document.getElementById('root'));
 })();
 
 /******/ })()
