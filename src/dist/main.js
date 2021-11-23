@@ -1737,7 +1737,7 @@ function HeaderContainer(_ref) {
     alt: "Netflix"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.ButtonLink, {
     to: _constants_routes__WEBPACK_IMPORTED_MODULE_2__.SIGN_IN
-  }, "Sign In!")), children);
+  }, "Sign In")), children);
 }
 
 /***/ }),
