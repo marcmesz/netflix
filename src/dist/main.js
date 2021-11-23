@@ -129,10 +129,10 @@ Accordion.Header = function AccordionHeader(_ref5) {
       return setToggleShow(!toggleShow);
     }
   }, restProps), children, toggleShow ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement("img", {
-    src: "images/icons/close-slim.png",
+    src: "https://marcmesz.github.io/netflix/images/icons/close-slim.png",
     alt: "Close"
   }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement("img", {
-    src: "images/icons/add.png",
+    src: "https://marcmesz.github.io/netflix/images/icons/add.png",
     alt: "Open"
   }));
 };
@@ -314,13 +314,13 @@ Card.Feature = function CardFeature(_ref10) {
       setShowFeature = _useContext2.setShowFeature;
 
   return showFeature ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.Feature, {
-    src: "images/".concat(category, "/").concat(itemFeature.genre, "/").concat(itemFeature.slug, "/large.jpg")
+    src: "https://marcmesz.github.io/netflix/images/".concat(category, "/").concat(itemFeature.genre, "/").concat(itemFeature.slug, "/large.jpg")
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.Content, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.FeatureTitle, null, itemFeature.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.FeatureText, null, itemFeature.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.FeatureClose, {
     onClick: function onClick() {
       return setShowFeature(false);
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement("img", {
-    src: "images/icons/close.png",
+    src: "https://marcmesz.github.io/netflix/images/icons/close.png",
     alt: "Close"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.Group, {
     margin: "30px 0",
@@ -787,7 +787,7 @@ Header.Search = function HeaderSearch(_ref4) {
       return setSearchActive(!searchActive);
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement("img", {
-    src: "images/icons/search.png",
+    src: "https://marcmesz.github.io/netflix/images/icons/search.png",
     alt: "Search"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_header__WEBPACK_IMPORTED_MODULE_4__.SearchInput, {
     value: searchTerm,
@@ -863,7 +863,7 @@ Header.Picture = function HeaderPicture(_ref14) {
       restProps = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__["default"])(_ref14, _excluded13);
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_header__WEBPACK_IMPORTED_MODULE_4__.Picture, (0,_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, restProps, {
-    src: "images/users/".concat(src, ".png")
+    src: "https://marcmesz.github.io/netflix/images/users/".concat(src, ".png")
   }));
 };
 
@@ -913,7 +913,7 @@ var _templateObject, _templateObject2, _templateObject3, _templateObject4, _temp
 
 var Background = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section(_templateObject || (_templateObject = (0,_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display: flex;\n    flex-direction: column;\n    background: url(", ") top left / cover no-repeat;\n    \n    @media (max-width: 1100px) {\n        ", "\n    }\n"])), function (_ref) {
   var src = _ref.src;
-  return src ? "images/misc/".concat(src, ".jpg") : 'images/misc/home-bg.jpg';
+  return src ? "https://marcmesz.github.io/netflix/images/misc/".concat(src, ".jpg") : 'https://marcmesz.github.io/netflix/images/misc/home-bg.jpg';
 }, function (_ref2) {
   var dontShowOnSmallViewPort = _ref2.dontShowOnSmallViewPort;
   return dontShowOnSmallViewPort && "background: none;";
@@ -1131,7 +1131,7 @@ function Loading(_ref) {
       restProps = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, _excluded);
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_styles_loading__WEBPACK_IMPORTED_MODULE_2__.Spinner, restProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_styles_loading__WEBPACK_IMPORTED_MODULE_2__.LockBody, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_styles_loading__WEBPACK_IMPORTED_MODULE_2__.Picture, {
-    src: "images/users/".concat(src, ".png")
+    src: "https://marcmesz.github.io/netflix/images/users/".concat(src, ".png")
   }));
 }
 
@@ -1164,7 +1164,7 @@ var _templateObject, _templateObject2, _templateObject3, _templateObject4;
 
 var LockBody = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.createGlobalStyle)(_templateObject || (_templateObject = (0,_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    body {\n        overflow: hidden;\n    }\n"])));
 var ReleaseBody = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.createGlobalStyle)(_templateObject2 || (_templateObject2 = (0,_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    body {\n        overflow: visible;\n    }\n"])));
-var Spinner = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject3 || (_templateObject3 = (0,_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    position: fixed;\n    width: 100%;\n    height: 100%;\n    background-color: black;\n    z-index: 999;\n    \n    :after {\n        content: '';\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        background-image: url(/images/misc/spinner.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        margin-top: -150px;\n        margin-left: -75px;\n        width: 150px;\n        height: 150px;\n        animation-name: spin;\n        animation-duration: 1000ms;\n        animation-iteration-count: infinite;\n        animation-timing-function: linear;\n    }\n    \n    @-ms-keyframes spin {\n        from {\n            -ms-transform: rotate(0deg);\n        }\n        to {\n            -ms-transform: rotate(360deg);\n        }\n    }\n\n    @-moz-keyframes spin {\n        from {\n            -moz-transform: rotate(0deg);\n        }\n        to {\n            -moz-transform: rotate(360deg);\n        }\n    }\n    \n    @-webkit-keyframes spin {\n        from {\n            -webkit-transform: rotate(0deg);\n        }\n        to {\n            -webkit-transform: rotate(360deg);\n        }\n    }\n    \n    @keyframes spin {\n        from {\n            transform: rotate(0deg);\n        }\n        to {\n            transform: rotate(360deg);\n        }\n    }\n"])));
+var Spinner = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject3 || (_templateObject3 = (0,_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    position: fixed;\n    width: 100%;\n    height: 100%;\n    background-color: black;\n    z-index: 999;\n    \n    :after {\n        content: '';\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        background-image: url(https://marcmesz.github.io/netflix/images/misc/spinner.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        margin-top: -150px;\n        margin-left: -75px;\n        width: 150px;\n        height: 150px;\n        animation-name: spin;\n        animation-duration: 1000ms;\n        animation-iteration-count: infinite;\n        animation-timing-function: linear;\n    }\n    \n    @-ms-keyframes spin {\n        from {\n            -ms-transform: rotate(0deg);\n        }\n        to {\n            -ms-transform: rotate(360deg);\n        }\n    }\n\n    @-moz-keyframes spin {\n        from {\n            -moz-transform: rotate(0deg);\n        }\n        to {\n            -moz-transform: rotate(360deg);\n        }\n    }\n    \n    @-webkit-keyframes spin {\n        from {\n            -webkit-transform: rotate(0deg);\n        }\n        to {\n            -webkit-transform: rotate(360deg);\n        }\n    }\n    \n    @keyframes spin {\n        from {\n            transform: rotate(0deg);\n        }\n        to {\n            transform: rotate(360deg);\n        }\n    }\n"])));
 var Picture = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img(_templateObject4 || (_templateObject4 = (0,_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    width: 50px;\n    height: 50px;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    margin-top: -100px;\n    margin-left: -22px;\n"])));
 
 /***/ }),
@@ -1209,7 +1209,7 @@ OptForm.Button = function OptFormButton(_ref3) {
       restProps = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref3, _excluded2);
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(_styles_opt_form__WEBPACK_IMPORTED_MODULE_3__.Button, restProps, children, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("img", {
-    src: "images/icons/chevron-right.png",
+    src: "https://marcmesz.github.io/netflix/images/icons/chevron-right.png",
     alt: "Try Now"
   }));
 };
@@ -1317,7 +1317,7 @@ Player.Video = function PlayerVideo(_ref2) {
     id: "netflix-player",
     controls: true
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement("source", {
-    src: "videos/bunny.mp4",
+    src: "https://marcmesz.github.io/netflix/videos/bunny.mp4",
     type: "video/mp4"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_player__WEBPACK_IMPORTED_MODULE_5__.Close, null))), document.body) : null;
 };
@@ -1426,7 +1426,7 @@ Profiles.Picture = function ProfilesPicture(_ref5) {
       restProps = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref5, _excluded5);
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(_styles_profiles__WEBPACK_IMPORTED_MODULE_3__.Picture, (0,_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, restProps, {
-    src: src ? "images/users/".concat(src, ".png") : 'images/misc/loading.gif'
+    src: src ? "https://marcmesz.github.io/netflix/images/users/".concat(src, ".png") : 'https://marcmesz.github.io/netflix/images/misc/loading.gif'
   }));
 };
 
@@ -1485,7 +1485,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "SIGN_UP": () => (/* binding */ SIGN_UP),
 /* harmony export */   "SIGN_IN": () => (/* binding */ SIGN_IN)
 /* harmony export */ });
-var HOME = '/';
+var HOME = 'https://marcmesz.github.io/netflix/';
 var BROWSE = '/browse';
 var SIGN_UP = '/signup';
 var SIGN_IN = '/signin';
@@ -1584,7 +1584,7 @@ function BrowseContainer(_ref) {
     dontShowOnSmallViewPort: true
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Header.Frame, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Header.Group, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Header.Logo, {
     to: _constants_routes__WEBPACK_IMPORTED_MODULE_4__.HOME,
-    src: "images/misc/logo.svg",
+    src: "https://marcmesz.github.io/netflix/images/misc/logo.svg",
     alt: "Netflix"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Header.Link, {
     active: category === 'series' ? 'true' : 'false',
@@ -1615,7 +1615,7 @@ function BrowseContainer(_ref) {
         key: item.docId,
         item: item
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Card.Image, {
-        src: "images/".concat(category, "/").concat(item.genre, "/").concat(item.slug, "/small.jpg")
+        src: "https://marcmesz.github.io/netflix/images/".concat(category, "/").concat(item.genre, "/").concat(item.slug, "/small.jpg")
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Card.Meta, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Card.SubTitle, null, item.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Card.Text, null, item.description)));
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Card.Feature, {
       category: category
@@ -1733,7 +1733,7 @@ function HeaderContainer(_ref) {
   var children = _ref.children;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.Frame, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.Logo, {
     to: _constants_routes__WEBPACK_IMPORTED_MODULE_2__.HOME,
-    src: "images/misc/logo.svg",
+    src: "https://marcmesz.github.io/netflix/images/misc/logo.svg",
     alt: "Netflix"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.ButtonLink, {
     to: _constants_routes__WEBPACK_IMPORTED_MODULE_2__.SIGN_IN
@@ -1797,7 +1797,7 @@ function SelectProfileContainer(_ref) {
     bg: false
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.Frame, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.Logo, {
     to: _constants_routes__WEBPACK_IMPORTED_MODULE_2__.HOME,
-    src: "images/misc/logo.svg",
+    src: "https://marcmesz.github.io/netflix/images/misc/logo.svg",
     alt: "Netflix Clone"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Profiles, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Profiles.Title, null, "Who's watching?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Profiles.List, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Profiles.User, {
     onClick: function onClick() {
@@ -39273,7 +39273,7 @@ module.exports = JSON.parse('[{"id":1,"header":"What is Netflix?","body":"Netfli
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('[{"id":1,"title":"Enjoy on your TV.","subTitle":"Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.","image":"images/misc/home-tv.jpg","alt":"Tiger King on Netflix","direction":"row"},{"id":2,"title":"Download your programmes to watch on the go.","subTitle":"Save your data and watch all your favourites offline.","image":"images/misc/home-mobile.jpg","alt":"Tiger King on Netflix","direction":"row-reverse"},{"id":3,"title":"Watch everywhere.","subTitle":"Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.","image":"images/misc/home-imac.jpg","alt":"Money Heist on Netflix","direction":"row"}]');
+module.exports = JSON.parse('[{"id":1,"title":"Enjoy on your TV.","subTitle":"Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.","image":"https://marcmesz.github.io/netflix/images/misc/home-tv.jpg","alt":"Tiger King on Netflix","direction":"row"},{"id":2,"title":"Download your programmes to watch on the go.","subTitle":"Save your data and watch all your favourites offline.","image":"https://marcmesz.github.io/netflix/images/misc/home-mobile.jpg","alt":"Tiger King on Netflix","direction":"row-reverse"},{"id":3,"title":"Watch everywhere.","subTitle":"Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.","image":"https://marcmesz.github.io/netflix/images/misc/home-imac.jpg","alt":"Money Heist on Netflix","direction":"row"}]');
 
 /***/ })
 
