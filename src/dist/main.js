@@ -1485,7 +1485,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "SIGN_UP": () => (/* binding */ SIGN_UP),
 /* harmony export */   "SIGN_IN": () => (/* binding */ SIGN_IN)
 /* harmony export */ });
-var HOME = 'https://marcmesz.github.io/netflix/';
+var HOME = '/';
 var BROWSE = '/browse';
 var SIGN_UP = '/signup';
 var SIGN_IN = '/signin';
