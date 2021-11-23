@@ -1733,7 +1733,7 @@ function HeaderContainer(_ref) {
   var children = _ref.children;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.Frame, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.Logo, {
     to: _constants_routes__WEBPACK_IMPORTED_MODULE_2__.HOME,
-    src: "./images/misc/logo.svg",
+    src: "../images/misc/logo.svg",
     alt: "Netflix"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.ButtonLink, {
     to: _constants_routes__WEBPACK_IMPORTED_MODULE_2__.SIGN_IN
