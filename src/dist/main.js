@@ -913,7 +913,7 @@ var _templateObject, _templateObject2, _templateObject3, _templateObject4, _temp
 
 var Background = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section(_templateObject || (_templateObject = (0,_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    display: flex;\n    flex-direction: column;\n    background: url(", ") top left / cover no-repeat;\n    \n    @media (max-width: 1100px) {\n        ", "\n    }\n"])), function (_ref) {
   var src = _ref.src;
-  return src ? "../images/misc/".concat(src, ".jpg") : '../images/misc/home-bg.jpg';
+  return src ? "images/misc/".concat(src, ".jpg") : 'images/misc/home-bg.jpg';
 }, function (_ref2) {
   var dontShowOnSmallViewPort = _ref2.dontShowOnSmallViewPort;
   return dontShowOnSmallViewPort && "background: none;";
