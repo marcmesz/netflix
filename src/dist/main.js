@@ -129,10 +129,10 @@ Accordion.Header = function AccordionHeader(_ref5) {
       return setToggleShow(!toggleShow);
     }
   }, restProps), children, toggleShow ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement("img", {
-    src: "/images/icons/close-slim.png",
+    src: "images/icons/close-slim.png",
     alt: "Close"
   }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement("img", {
-    src: "/images/icons/add.png",
+    src: "images/icons/add.png",
     alt: "Open"
   }));
 };
@@ -314,13 +314,13 @@ Card.Feature = function CardFeature(_ref10) {
       setShowFeature = _useContext2.setShowFeature;
 
   return showFeature ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.Feature, {
-    src: "/images/".concat(category, "/").concat(itemFeature.genre, "/").concat(itemFeature.slug, "/large.jpg")
+    src: "images/".concat(category, "/").concat(itemFeature.genre, "/").concat(itemFeature.slug, "/large.jpg")
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.Content, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.FeatureTitle, null, itemFeature.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.FeatureText, null, itemFeature.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.FeatureClose, {
     onClick: function onClick() {
       return setShowFeature(false);
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement("img", {
-    src: "/images/icons/close.png",
+    src: "images/icons/close.png",
     alt: "Close"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_card__WEBPACK_IMPORTED_MODULE_4__.Group, {
     margin: "30px 0",
@@ -787,7 +787,7 @@ Header.Search = function HeaderSearch(_ref4) {
       return setSearchActive(!searchActive);
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement("img", {
-    src: "/images/icons/search.png",
+    src: "images/icons/search.png",
     alt: "Search"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_header__WEBPACK_IMPORTED_MODULE_4__.SearchInput, {
     value: searchTerm,
@@ -863,7 +863,7 @@ Header.Picture = function HeaderPicture(_ref14) {
       restProps = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__["default"])(_ref14, _excluded13);
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_header__WEBPACK_IMPORTED_MODULE_4__.Picture, (0,_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, restProps, {
-    src: "/images/users/".concat(src, ".png")
+    src: "images/users/".concat(src, ".png")
   }));
 };
 
@@ -1131,7 +1131,7 @@ function Loading(_ref) {
       restProps = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, _excluded);
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_styles_loading__WEBPACK_IMPORTED_MODULE_2__.Spinner, restProps, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_styles_loading__WEBPACK_IMPORTED_MODULE_2__.LockBody, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_styles_loading__WEBPACK_IMPORTED_MODULE_2__.Picture, {
-    src: "/images/users/".concat(src, ".png")
+    src: "images/users/".concat(src, ".png")
   }));
 }
 
@@ -1209,7 +1209,7 @@ OptForm.Button = function OptFormButton(_ref3) {
       restProps = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref3, _excluded2);
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(_styles_opt_form__WEBPACK_IMPORTED_MODULE_3__.Button, restProps, children, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("img", {
-    src: "/images/icons/chevron-right.png",
+    src: "images/icons/chevron-right.png",
     alt: "Try Now"
   }));
 };
@@ -1317,7 +1317,7 @@ Player.Video = function PlayerVideo(_ref2) {
     id: "netflix-player",
     controls: true
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement("source", {
-    src: "/videos/bunny.mp4",
+    src: "videos/bunny.mp4",
     type: "video/mp4"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3__.createElement(_styles_player__WEBPACK_IMPORTED_MODULE_5__.Close, null))), document.body) : null;
 };
@@ -1426,7 +1426,7 @@ Profiles.Picture = function ProfilesPicture(_ref5) {
       restProps = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref5, _excluded5);
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(_styles_profiles__WEBPACK_IMPORTED_MODULE_3__.Picture, (0,_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, restProps, {
-    src: src ? "/images/users/".concat(src, ".png") : '/images/misc/loading.gif'
+    src: src ? "images/users/".concat(src, ".png") : 'images/misc/loading.gif'
   }));
 };
 
@@ -1584,7 +1584,7 @@ function BrowseContainer(_ref) {
     dontShowOnSmallViewPort: true
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Header.Frame, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Header.Group, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Header.Logo, {
     to: _constants_routes__WEBPACK_IMPORTED_MODULE_4__.HOME,
-    src: "/images/misc/logo.svg",
+    src: "images/misc/logo.svg",
     alt: "Netflix"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Header.Link, {
     active: category === 'series' ? 'true' : 'false',
@@ -1615,7 +1615,7 @@ function BrowseContainer(_ref) {
         key: item.docId,
         item: item
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Card.Image, {
-        src: "/images/".concat(category, "/").concat(item.genre, "/").concat(item.slug, "/small.jpg")
+        src: "images/".concat(category, "/").concat(item.genre, "/").concat(item.slug, "/small.jpg")
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Card.Meta, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Card.SubTitle, null, item.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Card.Text, null, item.description)));
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components__WEBPACK_IMPORTED_MODULE_3__.Card.Feature, {
       category: category
@@ -1733,7 +1733,7 @@ function HeaderContainer(_ref) {
   var children = _ref.children;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.Frame, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.Logo, {
     to: _constants_routes__WEBPACK_IMPORTED_MODULE_2__.HOME,
-    src: "netflix/images/misc/logo.svg",
+    src: "images/misc/logo.svg",
     alt: "Netflix"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.ButtonLink, {
     to: _constants_routes__WEBPACK_IMPORTED_MODULE_2__.SIGN_IN
@@ -1797,8 +1797,8 @@ function SelectProfileContainer(_ref) {
     bg: false
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.Frame, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Header.Logo, {
     to: _constants_routes__WEBPACK_IMPORTED_MODULE_2__.HOME,
-    src: "/images/misc/logo.svg",
-    alt: "Netflix"
+    src: "images/misc/logo.svg",
+    alt: "Netflix Clone"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Profiles, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Profiles.Title, null, "Who's watching?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Profiles.List, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components__WEBPACK_IMPORTED_MODULE_1__.Profiles.User, {
     onClick: function onClick() {
       return setProfile({
@@ -39273,7 +39273,7 @@ module.exports = JSON.parse('[{"id":1,"header":"What is Netflix?","body":"Netfli
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('[{"id":1,"title":"Enjoy on your TV.","subTitle":"Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.","image":"/images/misc/home-tv.jpg","alt":"Tiger King on Netflix","direction":"row"},{"id":2,"title":"Download your programmes to watch on the go.","subTitle":"Save your data and watch all your favourites offline.","image":"/images/misc/home-mobile.jpg","alt":"Tiger King on Netflix","direction":"row-reverse"},{"id":3,"title":"Watch everywhere.","subTitle":"Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.","image":"/images/misc/home-imac.jpg","alt":"Money Heist on Netflix","direction":"row"}]');
+module.exports = JSON.parse('[{"id":1,"title":"Enjoy on your TV.","subTitle":"Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.","image":"images/misc/home-tv.jpg","alt":"Tiger King on Netflix","direction":"row"},{"id":2,"title":"Download your programmes to watch on the go.","subTitle":"Save your data and watch all your favourites offline.","image":"images/misc/home-mobile.jpg","alt":"Tiger King on Netflix","direction":"row-reverse"},{"id":3,"title":"Watch everywhere.","subTitle":"Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.","image":"images/misc/home-imac.jpg","alt":"Money Heist on Netflix","direction":"row"}]');
 
 /***/ })
 
@@ -39389,7 +39389,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPOR
   value: {
     firebase: window.firebase
   }
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Hello"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_global_styles__WEBPACK_IMPORTED_MODULE_2__.GlobalStyles, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_3__.App, null)), document.getElementById('root'));
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_global_styles__WEBPACK_IMPORTED_MODULE_2__.GlobalStyles, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_3__.App, null)), document.getElementById('root'));
 })();
 
 /******/ })()
